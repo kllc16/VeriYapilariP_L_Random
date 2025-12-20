@@ -8,7 +8,8 @@ class SimpleLinkedList {
 
     // SONA ELEMAN EKLE (Trene yeni vagon ekle)
     void add(int data) {
-        Node newNode = new Node(data);  // Yeni vagon yap
+        Node newNode = new Node(data);
+        // Yeni vagon yap
 
         // DURUM 1: Tren boşsa
         if (head == null) {
